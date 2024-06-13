@@ -34,13 +34,50 @@ body {
 }
 
 .content .left_content {
-  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 25%;
   height: 100%;
+  position: relative;
+}
+
+.content .left_content::before {
+  content: "";
+  content: "";
+  background-color: #afafb6;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .content .right_content {
   width: 75%;
   height: 100%;
   /* background-color: blue; */
+}
+.info_contact {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.info_contact i {
+  font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+
+.info_contact h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.info_contact span {
+  font-size: 14px;
+  display: block;
+  color: #afafb6;
 }
