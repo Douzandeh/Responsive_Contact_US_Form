@@ -59,6 +59,13 @@ body {
   width: 75%;
   height: 100%;
   /* background-color: blue; */
+  padding-left: 75px;
+}
+
+.content .right_content h4 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
 }
 .info_contact {
   text-align: center;
